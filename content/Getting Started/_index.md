@@ -1,9 +1,9 @@
 +++
 title = "Getting Started"
 date = 2020-09-23T09:10:33+02:00
-weight = 5
+weight = 1
 chapter = true
-pre = "<b>X. </b>"
+pre = "<b>1. </b>"
 +++
 
 ### Chapter 1
