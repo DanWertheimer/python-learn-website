@@ -2,6 +2,7 @@
 title: "Lists and Loops"
 date: 2020-09-28T11:26:46+02:00
 draft: false
+weight: 1
 ---
 
 ### Defining a list
@@ -127,6 +128,10 @@ Amazing. Lets move one step deeper, lets create a list that stores the type of e
 >>> type_list
 [<class 'str'>, <class 'list'>, <class 'int'>, <class 'float'>]
 ```
+
+{{%expand "append() function" %}}
+Here we've made use of the `append()` method. This method acts in place. This means that you do not need to assign it to a variable, but it will append to the list it is executed on.
+{{% /expand%}}
 
 Nice and easy. But again, there must be a better way than first initialising the list.
 
