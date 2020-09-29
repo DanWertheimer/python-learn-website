@@ -13,3 +13,21 @@ home = [ "HTML", "RSS", "JSON"]
 [params]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "red"
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "ds"
+url = "https://github.com/DanWertheimer"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-globe'></i> Main Website"
+identifier = "ws"
+url = "https://danwertheimer.com"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-linkedin'></i> LinkedIn"
+identifier = "li"
+url = "https://www.linkedin.com/in/danwertheimer/"
+weight = 12
