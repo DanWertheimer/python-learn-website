@@ -146,8 +146,7 @@ This method is known as a **list comprehension** and increases the readability o
 Lastly, what happens if we want to store a list of tuples, an ordered, unchangeable (immutable), datatype that has the element's value, and it's type stored as `(element, element_type)` using the two lists that we have.
 
 ```python
->>> tuple_list = [(element, element_type)
-...               for (element, element_type) in zip(example_list, type_list)]
+>>> tuple_list = [(element, element_type) for (element, element_type) in zip(example_list, type_list)]
 >>> tuple_list
 [('a', <class 'str'>), ([1, 2], <class 'list'>), (3, <class 'int'>), (4.5, <class 'float'>)]
 ```
