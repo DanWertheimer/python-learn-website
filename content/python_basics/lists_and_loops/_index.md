@@ -45,7 +45,7 @@ Traceback (most recent call last):
 TypeError: can only concatenate list (not "str") to list
 ```
 
-Here, an error was raised, this is because Python doesn't know how to add a string to a list. The underlying method which defines how elements can be added is defined in a class as the `__add__()` method (pronounced dunder add, dunder means double underscore).
+Here, an error was raised, this is because Python doesn't know how to add a string to a list. The underlying method which defines how elements can be added is defined in a class {#class} as the `__add__()` method (pronounced dunder add, dunder means double underscore).
 You might now be wondering, where does this `__add__()` exist? and this exists within the `list` or `str` classes. In fact, we can rewrite our first command as:
 
 ```python

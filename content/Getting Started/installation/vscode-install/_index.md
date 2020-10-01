@@ -37,11 +37,16 @@ And you can see the folder I'm in on the left:
 To get us on the right track, we need to install some Python specific extensions. A lot of these extensions are prompted when working in python but lets install some up front. We require:
 
 - **Python Intellisense**: for code completion, syntax highlighting etc.
-- **flake8** or pylint for code linting.
-- **autopep8** for code formatting
 - **Anaconda Extension**, for working with conda environments
 
 This can be done as follows:
 ![vscode_extension](vscode_extension.jpg)
+
+Two other necessary extensions which can be enabled after the above are installed are:
+
+- **flake8** or pylint for code linting.
+  - This is selectable through the Python linting settings, by opening the command palette (cmd/ctrl+shift+p) and searching for _select linter_ and selecting flake8.
+- **autopep8** for code formatting
+  - You'll be prompted for this when you save your first python file.
 
 Once we've installed the above it's time for us to get started!
